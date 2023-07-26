@@ -101,3 +101,7 @@ section {
     height: 20vh;
 
 }
+
+form > label {
+    font-weight: bold;
+}
