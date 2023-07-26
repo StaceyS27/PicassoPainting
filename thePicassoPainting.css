@@ -1,0 +1,103 @@
+div {
+    color: transparent;
+}
+.gridContainer {
+    display:grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-template-rows: repeat(5, 1fr);
+    height: 80vh;
+    position: relative;
+}
+html {  
+    background-color: #e6ffff;
+}
+
+.grass {
+    background-color: green;
+}
+
+.treeTrunk {
+    background-color: #996633;
+}
+
+.treeTop {
+    background-color: #4dff88;
+}
+
+.corner1 {
+    border-top-left-radius: 100%;
+}
+.corner2 {
+    border-top-right-radius: 100%;
+}
+.corner3 {
+    border-bottom-left-radius: 100%;
+}
+.corner4 {
+    border-bottom-right-radius: 100% ;
+}
+
+#tableLeft {
+    border-left: black solid thick;
+    border-top: black solid thick;
+    border-width: 10px;
+}
+#tableRight {
+    border-right: black solid thick;
+    border-top: black solid thick;
+    border-width:10px;
+}
+
+#appleTable {
+    position: absolute;
+    z-index: 1;
+    top: 55%;
+    left:15%;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#appleTree1{
+    position: absolute;
+    z-index: 1;
+    top: 25%;
+    left:78%;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#appleTree2{
+    position: absolute;
+    z-index: 1;
+    top: 15%;
+    left:50%;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#appleTree3{
+    position: absolute;
+    z-index: 1;
+    top: 4%;
+    left:65%;
+    width: 5%;
+    height: 5%;
+    background-color: red;
+    border-radius: 50%;
+}
+
+#sun {
+    background-color: yellow;
+    border-bottom-right-radius:100%;
+}
+
+section {
+    height: 20vh;
+
+}
